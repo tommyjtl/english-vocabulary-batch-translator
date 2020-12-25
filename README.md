@@ -2,6 +2,10 @@
 
 A tool for batch translating english vocabulary into Chinese. 
 
+## Requirements
+
+See `package.json`.
+
 ## Getting started
 
 1. You must register your own appKey and appSecret on Youdao API platform;
