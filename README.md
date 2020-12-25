@@ -5,6 +5,7 @@ A tool for batch translating english vocabulary into Chinese. Go to [here](https
 Todo:
 
 - [ ] CSV export
+- [ ] Provide interface, enable user to paste multiple lines of words and get result at the same webpage
 - [x] Post data in `text/plain` format (multiple lines)
 - [x] Post data in `application/json` format
 
