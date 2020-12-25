@@ -1,0 +1,66 @@
+/**/
+jQuery35104075707829547397_1608889148415(
+{
+    "returnPhrase": ["tangible"],
+    "query": "tangible",
+    "errorCode": "0",
+    "l": "en2zh-CHS",
+    "tSpeakUrl": "http://openapi.youdao.com/ttsapi?q=%E6%9C%89%E5%BD%A2%E7%9A%84&langType=zh-CHS&sign=7B1F00570B1E039EDC00F8E0C0B9B593&salt=1608889151120&voice=4&format=mp3&appKey=40f46e26990b23ea&ttsVoiceStrict=false",
+    "web": [
+    {
+        "value": ["实在的", "具体的", "切实的"],
+        "key": "tangible"
+    },
+    {
+        "value": ["有形价值", "翻译"],
+        "key": "tangible value"
+    },
+    {
+        "value": ["有形担保"],
+        "key": "tangible security"
+    }],
+    "requestId": "38bec330-66b3-4be0-ad90-bd3a2151ac5a",
+    "translation": ["有形的"],
+    "dict":
+    {
+        "url": "yddict://m.youdao.com/dict?le=eng&q=tangible"
+    },
+    "webdict":
+    {
+        "url": "http://m.youdao.com/dict?le=eng&q=tangible"
+    },
+    "basic":
+    {
+        "exam_type": ["CET4", "CET6", "TOEFL", "GRE", "GMAT", "SAT", "商务英语"],
+        "us-phonetic": "ˈtændʒəbl",
+        "phonetic": "ˈtændʒəbl",
+        "uk-phonetic": "ˈtændʒəbl",
+        "wfs": [
+        {
+            "wf":
+            {
+                "name": "比较级",
+                "value": "more tangible"
+            }
+        },
+        {
+            "wf":
+            {
+                "name": "最高级",
+                "value": "most tangible"
+            }
+        },
+        {
+            "wf":
+            {
+                "name": "复数",
+                "value": "tangibles"
+            }
+        }],
+        "uk-speech": "http://openapi.youdao.com/ttsapi?q=tangible&langType=en&sign=0909AE4099DE1DFEDB7C1CA4763FDFA0&salt=1608889151120&voice=5&format=mp3&appKey=40f46e26990b23ea&ttsVoiceStrict=false",
+        "explains": ["adj. 有形的；切实的；可触摸的", "n. 有形资产"],
+        "us-speech": "http://openapi.youdao.com/ttsapi?q=tangible&langType=en&sign=0909AE4099DE1DFEDB7C1CA4763FDFA0&salt=1608889151120&voice=6&format=mp3&appKey=40f46e26990b23ea&ttsVoiceStrict=false"
+    },
+    "isWord": true,
+    "speakUrl": "http://openapi.youdao.com/ttsapi?q=tangible&langType=en&sign=0909AE4099DE1DFEDB7C1CA4763FDFA0&salt=1608889151120&voice=4&format=mp3&appKey=40f46e26990b23ea&ttsVoiceStrict=false"
+});

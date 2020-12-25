@@ -1,0 +1,12 @@
+{
+    "q": "tangible",
+    "appKey": "40f46e26990b23ea",
+    "salt": "f9617fc0-4695-11eb-977d-35a2050a41c9",
+    "from": "en",
+    "to": "zh-CHS",
+    "sign": "70cf48e123f7612dcc741f2f4a628d64174b0125296972b7abb3abacda21658b",
+    "signType": "v3",
+    "curtime": "1608889551"
+}
+
+

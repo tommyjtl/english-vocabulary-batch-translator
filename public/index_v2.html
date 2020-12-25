@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v4.1.1">
+    <title>Translator</title>
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/sign-in/">
+    <!-- Bootstrap core CSS -->
+    <link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        }
+        @media (min-width: 768px) {
+          .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+          }
+        }
+
+        .content {
+          background-color: #a9a8a8;
+          min-height: 1000px;
+        }
+        .sidebar-outer {
+          margin-top: 10px;
+          position: relative;
+        }
+        .fixed {
+          position: fixed;
+        }
+        .vertical-center {
+          min-height: 100%; /* Fallback for browsers do NOT support vh unit */
+          min-height: 100vh; /* These two lines are counted as one :-) */
+          display: flex;
+          align-items: center;
+        }
+
+        #vocabulary {
+          margin-bottom: 25px;
+        }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="signin.css" rel="stylesheet">
+</head>
+
+<body class="text-center ">
+    <div class="container">
+        <div class="row vertical-center">
+            <div class="col-lg-6">
+            </div>
+            <div class="col-lg-6 col-xs-offset-6 sidebar-outer vertical-center">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="card" id="vocabulary">
+                            <div class="card-body">
+                                <h5 class="card-title">Special title treatment</h5>
+                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            </div>
+                        </div>
+                        <div class="card" id="vocabulary">
+                            <div class="card-body">
+                                <h5 class="card-title">Special title treatment</h5>
+                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            </div>
+                        </div>
+                        <div class="card" id="vocabulary">
+                            <div class="card-body">
+                                <h5 class="card-title">Special title treatment</h5>
+                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            </div>
+                        </div>
+                        <div class="card" id="vocabulary">
+                            <div class="card-body">
+                                <h5 class="card-title">Special title treatment</h5>
+                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            </div>
+                        </div>
+                        <div class="card" id="vocabulary">
+                            <div class="card-body">
+                                <h5 class="card-title">Special title treatment</h5>
+                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            </div>
+                        </div>
+                        <div class="card" id="vocabulary">
+                            <div class="card-body">
+                                <h5 class="card-title">Special title treatment</h5>
+                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            </div>
+                        </div>
+                        <div class="card" id="vocabulary">
+                            <div class="card-body">
+                                <h5 class="card-title">Special title treatment</h5>
+                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            </div>
+                        </div>
+                        <div class="card" id="vocabulary">
+                            <div class="card-body">
+                                <h5 class="card-title">Special title treatment</h5>
+                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style='position:fixed;bottom:none;left:10%;width:35%;'>
+        <form>
+            <div class="form-group">
+                <label>Paste your vocabulary to here:</label>
+                <textarea class="form-control" id="rawwords" rows="10"></textarea>
+            </div>
+        </form>
+        <button type="button" class="btn btn-primary btn-lg btn-block" onclick="get_textarea();">Block level button</button>
+    </div>
+    <!-- <div style="margin-top:-40px;" class="col-lg-6" style="position:fixed">
+    </div>-->
+</body>
+<script src="./main.js"></script>
+
+</html>
