@@ -1,12 +1,15 @@
 var express = require('express');
 var bodyParser = require('body-parser');
 var CryptoJS = require("crypto-js");
+var fs = require('fs');
+var stringify = require('csv-stringify');
 var terminalArgs = process.argv.slice(2); // https://nodejs.org/en/knowledge/command-line/how-to-parse-command-line-arguments/
 
 const axios = require('axios');
 const jsonp = require('jsonp');
-const { v1: uuidv1 } = require('uuid');
+const generate = require('csv-generate')
 const config = require('./config.js');
+const { v1: uuidv1 } = require('uuid');
 const serverPort = 3000;
 
 var app = express();
@@ -133,6 +136,15 @@ app.post('/api-txt', async (req, res, next) => {
         var result_json = JSON.parse(JSON.stringify(Object.assign({}, result[1])));
 
         console.log("[", (new Date), "] Done processing all the words.", result_json);
+        
+        /*
+        stringify(result_json, {
+            header: true
+        }, function(err, output) {
+            fs.writeFile(__dirname + './tmp/someData.csv', output);
+        })
+        */
+
         res.send(result_json);
     } catch (e) {
         console.log(e);
